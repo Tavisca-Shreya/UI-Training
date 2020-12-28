@@ -1,0 +1,130 @@
+body {
+    background-color: #cccccc;
+    font-family: 'Delius', 'Roboto', helvetica, cursive;
+    }
+
+.logo {
+    margin: 1em; 
+    width: 24%; 
+    min-width: 250px;
+}
+.main
+{
+    margin: 0 auto;
+    overflow: auto;
+    padding: 1em;
+}
+.filter label, .filter select {
+    margin: 0 0 0 20px;
+     
+}
+
+.flexleft {
+    float: left;
+    width: 60%;
+}
+
+.flexright {
+    float: right;
+    width: 30%;     
+}
+
+ul
+{
+  list-style-type: none;
+}
+
+.topnav 
+{
+
+}
+
+.topnav a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 8px 18px;
+    color: white    
+}
+
+.topnav-right {
+    float: right;
+    padding: 8px 20px;
+    background-color: #333;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.ideaboard
+{
+   background-color: white; 
+   border: 10px solid #696969 ;
+   box-shadow: 2px 3px 2px #888888;
+   margin-top: 60px;
+   width: 95%;
+   height: 800px;
+}
+
+.boardowner {
+    text-align:center;
+    font-family: 'Handlee';
+}
+.titles{
+    display: flex;
+}
+.title{
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    margin: 30px;
+    display:flex;
+    /* flex-direction: row; */
+}
+
+.card1 {
+    background-color: yellowgreen;
+    width: 150px;
+    height: 100px;
+    /* padding: 10px; */
+    margin: 10px;
+    background-color: #c3ee8f;
+    border: 1px solid #c3ee8f;
+    box-shadow: 1px 1px 3px #aaaaaa;
+    font-size: small;
+    text-align: center;
+}
+
+.card2 {
+    background-color: yellowgreen;
+    width: 150px;
+    height: 100px;
+    /* padding: 10px; */
+    margin: 10px;
+    background-color: #ffff88;
+    border: 1px solid #ffff88;
+    box-shadow: 1px 1px 3px #aaaaaa;
+    font-size: small;
+    text-align: center;
+}
+
+.card3 {
+    background-color: yellowgreen;
+    width: 150px;
+    height: 100px;
+    /* padding: 10px; */
+    margin: 10px;
+    background-color: #eed3ff;
+    border: 1px solid #eed3ff;
+    box-shadow: 1px 1px 3px #aaaaaa;
+    font-size: small;
+    text-align: center;
+}
+
+.titletag{
+    padding: 0px 175px 0px 175px;
+    display: inline;   
+    width :33%;
+    text-align: center;
+    font-family: 'Handlee', 'Roboto', helvetica, cursive;
+    font-weight: bold;
+}
